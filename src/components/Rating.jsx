@@ -25,7 +25,7 @@ const Rating = ({ rating, setRating, setSubmitted }) => {
               <button
                 key={number}
                 onClick={() => setRating(number)}
-                className={`bg-slate-700 h-[3rem] w-[3rem] rounded-full font-medium text-slate-300 cursor-pointer transition ${rating === number ? "text-slate-800 bg-white" : "bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800"}`}
+                className={`bg-slate-700 h-[3rem] w-[3rem] rounded-full font-medium text-slate-300 cursor-pointer transition ${rating === number ? "text-slate-800 bg-white" : "bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800"} focus:outline-dashed outline-white outline-offset-4 active:scale-95`}
               >
                 {number}
               </button>
@@ -42,7 +42,7 @@ const Rating = ({ rating, setRating, setSubmitted }) => {
             setError(false);
             setSubmitted(true);
           }}
-          className="block px-6 py-2 mt-4 uppercase tracking-wider text-md md:text-lg font-bold w-full rounded-full transition text-slate-80 bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800"
+          className="block px-6 py-2 mt-4 uppercase tracking-wider text-md md:text-lg font-bold w-full rounded-full transition text-slate-80 bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800 focus:outline-dashed outline-white outline-offset-4 active:scale-95"
         >
           Submit
         </button>
