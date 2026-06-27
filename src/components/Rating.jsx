@@ -8,7 +8,7 @@ const Rating = ({ rating, setRating, setSubmitted }) => {
 
   return (
     <div className="bg-slate-900 flex justify-center items-center min-h-screen">
-      <div className="bg-slate-800 w-100 p-10 rounded-2xl">
+      <div className="bg-slate-800 w-80 md:w-100 p-10 rounded-2xl">
         <div className="h-[2.5rem] w-[2.5rem] bg-slate-600 rounded-full flex justify-center items-center mb-6">
           <img src={starIcon} alt="Star" />
         </div>
@@ -25,7 +25,7 @@ const Rating = ({ rating, setRating, setSubmitted }) => {
               <button
                 key={number}
                 onClick={() => setRating(number)}
-                className={`bg-slate-700 h-[3rem] w-[3rem] rounded-full font-medium text-slate-300 cursor-pointer transition ${rating === number ? "text-slate-800 bg-white" : "bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800"} focus:outline-dashed outline-white outline-offset-4 active:scale-95`}
+                className={`bg-slate-700 h-[2.5em] w-[2.5em] md:h-[3em] md:w-[3em] rounded-full font-medium text-slate-300 cursor-pointer transition ${rating === number ? "text-slate-800 bg-white" : "bg-orange-500 text-white cursor-pointer hover:bg-white hover:text-slate-800"} focus:outline-dashed outline-white outline-offset-4 active:scale-95`}
               >
                 {number}
               </button>

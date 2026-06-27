@@ -4,7 +4,7 @@ import illustration from "../assets/illustration-thank-you.svg";
 const Thanks = ({ rating }) => {
   return (
     <div className="bg-slate-900 flex justify-center items-center min-h-screen">
-      <div className="bg-slate-800 w-100 p-10 rounded-2xl">
+      <div className="bg-slate-800 w-80 md:w-100 p-10 rounded-2xl">
         <div className="flex justify-center items-center mb-6">
           <img src={illustration} alt="Star" />
         </div>
