@@ -1,16 +1,50 @@
-# React + Vite
+# Interactive Rating Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive rating component built with **React** and **Tailwind CSS**. Users can select a rating from 1 to 5, submit their feedback, and view a thank-you screen displaying their selected rating.
 
-Currently, two official plugins are available:
+- [Interactive Rating Component](#interactive-rating-component)
+  - [Challenge](#challenge)
+  - [Built with](#built-with)
+  - [Features](#features)
+  - [Process](#process)
+  - [Getting Started](#getting-started)
+  - [Links](#links)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Challenge
 
-## React Compiler
+This is a solution to the [Interactive Rating Component](https://tinyurl.com/ycym4usc) challenge from Frontend Mentor.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the ESLint configuration
+- React JS
+- TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Select a rating from 1–5
+- Visual feedback for the selected rating
+- Validation to prevent submission without selecting a rating
+- Thank-you screen after submission
+- Responsive design
+
+## Process
+
+I always got stuck on this one. So this time, I decided to sit down and think a little. I got help from **ChatGPT** for solving errors and code explanation. After an hour of work, the challenge is complete. I have started to get better at React. Now, I want to move forward with more projects.
+
+## Getting Started
+
+Clone the repository and install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Links
+- GitHub Repo: 
+- Deployed site: 
