@@ -14,6 +14,8 @@ A simple interactive rating component built with **React** and **Tailwind CSS**.
 
 This is a solution to the [Interactive Rating Component](https://tinyurl.com/ycym4usc) challenge from Frontend Mentor.
 
+![Preview](image.png)
+
 ## Built with
 
 - React JS
@@ -46,5 +48,6 @@ npm run dev
 ```
 
 ## Links
-- GitHub Repo: 
-- Deployed site: 
+
+- GitHub Repo:
+- Deployed site:
