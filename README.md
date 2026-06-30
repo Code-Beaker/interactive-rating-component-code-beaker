@@ -49,5 +49,5 @@ npm run dev
 
 ## Links
 
-- GitHub Repo:
-- Deployed site:
+- [GitHub Repository](https://github.com/Code-Beaker/interactive-rating-component-code-beaker)
+- [Deployed site](https://rating-component-code-beaker.vercel.app/)
